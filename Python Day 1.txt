@@ -1,0 +1,531 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "5a00d69d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello World\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "221c3569",
+   "metadata": {},
+   "source": [
+    "# Header 1\n",
+    "## Header 2\n",
+    "### Header 3\n",
+    "#### Header 4\n",
+    "##### Header 5\n",
+    "This is a normal text"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "1c2f173e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello World\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "025233a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Hello World')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "5de2dd45",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "EOL while scanning string literal (<ipython-input-4-f1fa627f45a2>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"<ipython-input-4-f1fa627f45a2>\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    print(\"Hello World')\u001b[0m\n\u001b[1;37m                        ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m EOL while scanning string literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello World')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2f48e8b2",
+   "metadata": {},
+   "source": [
+    "### Variables\n",
+    "Variables are defined with the (=) operator\n",
+    "The equal to (=) is referred to as the assignment operator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "d64c78b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n",
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 3\n",
+    "b = 2\n",
+    "c = 5\n",
+    "\n",
+    "print(a * b * c)\n",
+    "print(a + b + c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "6d2c326e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "greet = \"Hello World\"\n",
+    "\n",
+    "print(greet)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "31c96a23",
+   "metadata": {},
+   "source": [
+    "#### Class Activity: Create a variable called name, save your firstname in the variable and print it out"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "7884c195",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Simi\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Simi\"\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "b52b07ef",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Simi\n"
+     ]
+    }
+   ],
+   "source": [
+    "_01name = \"Simi\"\n",
+    "print(_01name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "46f0899e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'Print' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-13-6d548b518223>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mPrint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mname\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'Print' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "print(Name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0170f237",
+   "metadata": {},
+   "source": [
+    "(==) is the comparison operator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "c3a3240d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"Python\" == \"python\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2b2bc09a",
+   "metadata": {},
+   "source": [
+    "#### input() function\n",
+    "It prompts users for an input by displaying a text input"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "87a8ec3e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Simi Adeboye\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'Simi Adeboye'"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "input()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "dd769d47",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello Welcome, what is your firstname? James\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'James'"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "input(\"Hello Welcome, what is your firstname? \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "af2260fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello Welcome, what is your firstname? Simi\n",
+      "Hello Simi\n"
+     ]
+    }
+   ],
+   "source": [
+    "firstname = input(\"Hello Welcome, what is your firstname? \")\n",
+    "print(\"Hello\", firstname)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7376cef1",
+   "metadata": {},
+   "source": [
+    "#### Class Activity: Create a python program that prompts users for (1) name (2) Location and print out a fancy message e.g Hello (name) from (Location)\n",
+    "\n",
+    "\n",
+    "NB: You can comment in a code cell using the #"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "c53255b1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name? Simi\n",
+      "Where are you based? NG\n",
+      "Hello Simi from NG\n"
+     ]
+    }
+   ],
+   "source": [
+    "#STEP 1\n",
+    "name = input(\"What is your name? \")\n",
+    "\n",
+    "#STEP 2\n",
+    "location = input (\"Where are you based? \")\n",
+    "\n",
+    "#STEP 3\n",
+    "print(\"Hello\", name, \"from\", location)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "de88dac7",
+   "metadata": {},
+   "source": [
+    "### IF/ELSE\n",
+    "\n",
+    "#### IF"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "f900de16",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Young\n"
+     ]
+    }
+   ],
+   "source": [
+    "#define a variable called age\n",
+    "age = 15\n",
+    "\n",
+    "if age <= 18: #define the condition\n",
+    "    print(\"Young\") #Body is indented"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f82491cc",
+   "metadata": {},
+   "source": [
+    "#### ELSE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "9b47a07e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Adult\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = 30\n",
+    "\n",
+    "if age <= 18:\n",
+    "    print('Young') #Action if True\n",
+    "else:\n",
+    "    print(\"Adult\") #Action if false"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "a25fb89e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Negative value\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 0\n",
+    "\n",
+    "if a > 0:\n",
+    "    print(\"Positive value\")\n",
+    "else:\n",
+    "    print(\"Negative value\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7fbff7f4",
+   "metadata": {},
+   "source": [
+    "#### ELIF (Else IF)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "34dd05eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Zero\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 0\n",
+    "\n",
+    "if a > 0:\n",
+    "    print(\"Positive Value\")\n",
+    "elif a < 0:\n",
+    "    print(\"Negative Value\")\n",
+    "elif a == 0:\n",
+    "    print(\"Zero\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "6d6f1636",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 is less than 15\n"
+     ]
+    }
+   ],
+   "source": [
+    "value1 = 10\n",
+    "value2 = 15\n",
+    "\n",
+    "if value1 < value2:\n",
+    "    print(value1, \"is less than\", value2)\n",
+    "elif value1 > value2:\n",
+    "    print(value1, \"is greater than\", value2)\n",
+    "else:\n",
+    "    print(value1, \"equals\", value2)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+
